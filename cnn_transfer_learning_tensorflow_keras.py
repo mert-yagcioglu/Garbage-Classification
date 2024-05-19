@@ -1,4 +1,3 @@
-#MERT YAĞCIOĞLU 
 #Kağıt ve Cam görüntülerini sınıflandırma.
 
 import tensorflow
@@ -45,9 +44,9 @@ model.compile(loss='binary_crossentropy',
 model.summary()
 
 #Verilerin bulunduğu konumu gösteriyoruz.
-train_dir = r'C:\Users\myyag\OneDrive\Masaüstü\BM\data\train'
-validation_dir = r'C:\Users\myyag\OneDrive\Masaüstü\BMdata\validation'
-test_dir = r'C:\Users\myyag\OneDrive\Masaüstü\BM\data\test'
+train_dir = r'C:\Users\OneDrive\Masaüstü\BM\data\train'
+validation_dir = r'C:\Users\OneDrive\Masaüstü\BMdata\validation'
+test_dir = r'C:\Users\OneDrive\Masaüstü\BM\data\test'
 
 #Overfitting yani aşırı öğrenme sorununun önüne geçmemiz için veri arttırımı yani görüntü arttırımı yapıyoruz.
 train_datagen = tensorflow.keras.preprocessing.image.ImageDataGenerator(
